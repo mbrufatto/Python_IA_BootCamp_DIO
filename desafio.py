@@ -62,4 +62,9 @@ while True:
         print(f"\n\n")
         print(f"Saldo: R$ {balance:.2f}")
         print("=======================================================")
-        
+
+    elif option == "0":
+        break
+    
+    else:
+        print("Opção do menu inválida, por favor selecione uma opção do menu válida.")
